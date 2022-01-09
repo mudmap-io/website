@@ -36,5 +36,8 @@
   },
   "devDependencies": {
     "next-sitemap": "^1.6.102"
-  }
+  },
+  "cacheDirectories": [
+    ".next/cache"
+  ]
 }
