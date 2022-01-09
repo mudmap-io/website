@@ -6,7 +6,7 @@ import {
 } from "@heroicons/react/outline";
 import {PopupButton} from "react-calendly";
 
-const issueGithub = 'https://github.com/mudmap-io/customer-support/issues/new/choose'
+const issueGithub = 'https://github.com/mudmap-io/customer-support/issues'
 const supportLinks = [
   {
     name: 'Documentation',
