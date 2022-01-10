@@ -2,7 +2,7 @@ import {SpeakerphoneIcon} from "@heroicons/react/outline";
 
 const NewFeaturesBanner = () => {
 
-  const post = "/version-2"
+  const post = "/version-2-launched"
   const blog = "/blog" + post
   return (
     <div className="bg-indigo-600">
@@ -13,8 +13,8 @@ const NewFeaturesBanner = () => {
               <SpeakerphoneIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">Mudmap version 2 is nearly here</span>
-              <span className="hidden md:inline">Faster, more stable and easier to use. Mudmap <strong>version 2</strong> is on its way</span>
+              <span className="md:hidden">Mudmap version 2 is here!! 🎉</span>
+              <span className="hidden md:inline">Mudmap <strong>version 2</strong> is here. Read up and get started today 🎉</span>
             </p>
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
