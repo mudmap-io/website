@@ -43,7 +43,7 @@ export default function Pricing() {
             <h1
               className="text-4xl font-extrabold sm:text-5xl sm:tracking-tight">
               <span className="text-gray-900">Connected devices from </span>
-              <span className="text-indigo-600">$4.5 a month</span>{" "}per device
+              <span className="text-indigo-600">$4.5 a month</span>
             </h1>
             <p className="mt-5 text-xl text-gray-500">
               Pricing is calculated in a <span className="font-semibold">per-seat</span> arrangement. You'll
@@ -132,7 +132,6 @@ const PricingTier = () => {
     <div id="pricing-tiers" className="bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="sm:flex sm:flex-col sm:align-center">
-          {/*<p className="mt-5 text-xl text-gray-500 font-extrabold">*/}
            <p className="text-base font-semibold text-indigo-600 tracking-wide uppercase">
             Graduated Pricing Tiers
           </p>
