@@ -4,7 +4,6 @@ import {
   ShieldExclamationIcon,
   SupportIcon
 } from "@heroicons/react/outline";
-import {PopupButton} from "react-calendly";
 
 const issueGithub = 'https://github.com/mudmap-io/customer-support/issues'
 const supportLinks = [
@@ -52,14 +51,9 @@ export default function Contact() {
                 Check the boxes below to see which area most suits your needs.
                 If you feel that none of those apply then you can reach me via
                 email at <span
-                className="underline">dan@mudmap.io</span> or <span>
-                <PopupButton url="https://calendly.com/dansult"
-                             text="book a demo"
-                             className="underline"
-                />
+                className="underline">dan@mudmap.io
                 </span>
               </p>
-
               <p className="mt-6 max-w-3xl text-xl text-gray-300">
                 Hope you find what you're looking for.
               </p>
