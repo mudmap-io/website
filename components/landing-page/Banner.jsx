@@ -199,14 +199,14 @@ export default function Banner() {
 
                   </div>
                 </div>
-                <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
+                <div className="mt-12 -mb-10 sm:-mb-48 lg:m-0 lg:relative">
                   <div
                     className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-                    {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                     <img
-                      className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                      src="https://tailwindui.com/img/component-images/cloud-illustration-indigo-400.svg"
-                      alt=""
+                      className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none
+                      border border-gray-700 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5"
+                      src="/assets/landing-page/mudmap-img-website-banner.png"
+                      alt="Mudmap dashboard overview"
                     />
                   </div>
                 </div>
