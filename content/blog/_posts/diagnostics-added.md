@@ -49,7 +49,7 @@ detail. As long as the firewall *does* come back online, Mudmap will begin
 to function correctly once it can communicate with the device.
 
 When shutting down the firewall, you must ensure you **can** start it again.
-Understandably, Mumdap will no longer be able to communicate with the device 
+Understandably, Mudmap will no longer be able to communicate with the device 
 and will be unable to start it. I'd hate to see someone shut it down and be 
 unable to start it again as they are not physically there.
 
