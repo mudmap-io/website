@@ -36,4 +36,5 @@ yarn-error.log*
 /components/old/
 
 public/sitemap.xml
+public/sitemap-0.xml
 public/robots.txt
