@@ -3,10 +3,10 @@ import {SpeakerphoneIcon} from "@heroicons/react/outline";
 const NewFeaturesBanner = () => {
 
   // the banner* items are dangerouslySetInnerHTML
-  const bannerText = "WAN routable Hostnames added!"
-  const mobileBannerText = "Device registrations now accept <strong>both</strong> hostnames and static IPs. Firewall's with a dynamic IP are now supported!"
+  const bannerText = "Mudmap will be suspending operations."
+  const mobileBannerText = "Mudmap will be suspending operations. Read <strong><a href='/blog/goodbye'>our blog post</a></strong> for more information."
   // Setting post to "" will not render the blog button
-  const post = "hostnames-are-now-supported"
+  const post = "goodbye"
   const blog = "/blog/" + post
   return (
     <div className="bg-indigo-600">
